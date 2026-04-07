@@ -1,8 +1,9 @@
-CS 210 Object Oriented Programming
+# CS 210 Object Oriented Programming
 Topic: JavaFX — Basics of GUI Programming
-Lab session – #11
+Lab session – 11
 Term: Spring 2026
-Problem 1 (Guided)
+
+## Problem 1 (Guided)
 (Hello JavaFX) Create a JavaFX application HelloJavaFX.java that:
 1. Displays your full name as a Text node with font Times New Roman, bold, italic, size
 20
@@ -12,7 +13,7 @@ Problem 1 (Guided)
 Expected output:
 A window titled Student Card showing your name in bold italic and your ID in red
 below it.
-Problem 2 (Guided)
+## Problem 2 (Guided)
 (Shapes Panel) Create ShapesPanel.java that builds a window (400×200) containing
 three shapes arranged in a row using HBox with spacing 20 and padding 20:
 1. A red-filled Rectangle (width 80, height 60) with rounded corners (arcWidth 20,
@@ -20,7 +21,7 @@ arcHeight 20) and a black stroke of width 2
 2. A blue-filled Circle with radius 40 and a black stroke of width 2
 3. A green-filled Ellipse with radiusX 50, radiusY 30 and a black stroke of width 2
 Set the window title to "Shapes".
-Problem 3 (Guided)
+## Problem 3 (Guided)
 (Property Binding Circle) Create CenteredCircle.java that displays a circle which
 always stays centered regardless of window size:
 1. Use a Pane as the root
@@ -28,7 +29,7 @@ always stays centered regardless of window size:
 3. Bind circle.centerYProperty() to pane.heightProperty().divide(2)
 4. Set radius to 50, fill to white, stroke to black, stroke width to 2
 5. Set the scene to 300×300 and resize the window to verify the binding works
-Problem 4 (Guided)
+## Problem 4 (Guided)
 (Layout Explorer) Create LayoutExplorer.java using a BorderPane as the root (scene
 450×300):
 1. Top: A gold-background HBox (padding 10, spacing 10) containing buttons "File",
@@ -38,7 +39,7 @@ HBox.
 labels: CS101, CS201, CS221, CS301.
 3. Center: A GridPane (alignment CENTER, hgap/vgap 5, padding 10) with Label/TextField
 pairs for First Name (row 0) and Last Name (row 1).
-Page 5Problem 5 (Independent)
+## Problem 5 (Independent)
 (Traffic Light) Create TrafficLight.java that displays a traffic light UI:
 1. Use a VBox (spacing 5, padding 20, centered) containing three Circle nodes of radius
 30
@@ -46,7 +47,7 @@ Page 5Problem 5 (Independent)
 3. Hard-code the red light as “active” (full opacity) and the other two as dim (opacity 0.3)
 4. Add a Text node below the circles reading "Stop" in bold, font size 18
 5. Set the scene background to dark gray using scene.setFill(Color.DARKGRAY)
-Problem 6 (Independent)
+## Problem 6 (Independent)
 (Color Mixer) Create ColorMixer.java that displays a color preview panel:
 1. Declare three double variables for R, G, B (values between 0.0 and 1.0) of your choice
 2. Display a Rectangle (200×200) filled with new Color(r, g, b, 1)
@@ -55,7 +56,7 @@ Problem 6 (Independent)
 5. Arrange everything in a VBox (spacing 8, padding 20, centered)
 6. Repeat with at least two more color combinations by changing the R/G/B values and
 running again
-Problem 7 (Independent)
+## Problem 7 (Independent)
 (Mini Profile Card) Create ProfileCard.java using a BorderPane (scene 400×250)
 that resembles a student profile card:
 1. Top: An HBox (padding 12) with a Label showing a fictional student name in white
@@ -65,7 +66,7 @@ Year, and GPA with their values in the second column
 3. Bottom: A Label (padding 8) with text "New Uzbekistan University", cen-
 tered, styled with a light gray background: "-fx-background-color: #ECF0F1;
 -fx-font-size: 13;"
-Problem 8 (Independent)
+## Problem 8 (Independent)
 (Resize-Aware Diagonal) Create DiagonalLine.java that draws a green diagonal line
 which always stretches from the top-left to the bottom-right corner of the window:
 1. Use a Pane as the root and create a Line with startX = 0, startY = 0
@@ -74,7 +75,7 @@ which always stretches from the top-left to the bottom-right corner of the windo
 4. Set stroke to green and stroke width to 3
 5. Set the scene to 400×300 and verify that resizing the window keeps the line anchored
 corner-to-corner
-Challenge — Optional
+## Challenge — Optional
 (Rotating Ellipses) Create RotatingEllipses.java by extending Pane into a custom
 class EllipsePane:
 1. Override setWidth(double) and setHeight(double) to call a private method
