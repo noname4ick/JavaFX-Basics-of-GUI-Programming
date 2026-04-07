@@ -11,6 +11,8 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="src" target="21" />
+      <module name="src.main" target="21" />
+      <module name="src.test" target="21" />
     </bytecodeTargetLevel>
   </component>
 </project>
